@@ -35,7 +35,7 @@ const menuItems = [
     {
         path: '/maestros',
         icon: <FaChalkboardTeacher />,
-        title: 'Maestro@s',
+        title: 'Maestr@s',
     }
 ]
 
@@ -44,8 +44,6 @@ export const Sidebar = ({ children }: Props) => {
     const { user } = useAuthContext();
 
     useEffect(() => {
-        console.log(user);
-
         if (user === null) redirect('/login');
     }, [])
 

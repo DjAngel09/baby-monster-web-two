@@ -1,4 +1,4 @@
-import { StudentsTemplate } from "@/resources/templates/StudentsTemplate";
+import { StudentsTemplate } from "@/resources/templates/Students/StudentsTemplate";
 
 export default function Alumnos() {
   return (

@@ -1,3 +1,6 @@
+//Esto de qui queda completamente deprecado pero se queda como concepto informativo;
+
+
 'use client'
 import {onAuthStateChanged,getAuth } from 'firebase/auth';
 import firebase_app from '../firebase/config';
